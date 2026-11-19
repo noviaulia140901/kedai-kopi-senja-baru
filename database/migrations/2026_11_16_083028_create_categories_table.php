@@ -4,10 +4,11 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-return new class extends Migration
+class CreateCategoriesTable extends Migration
 {
     public function up(): void
     {
+        // Tabel kategori menu
         Schema::create('categories', function (Blueprint $table) {
             $table->id();
             $table->string('name', 100)->unique();
@@ -21,4 +22,4 @@ return new class extends Migration
     {
         Schema::dropIfExists('categories');
     }
-};
+}
