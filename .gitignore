@@ -25,3 +25,25 @@ _ide_helper.php
 Homestead.json
 Homestead.yaml
 Thumbs.db
+
+# Claude dan konfigurasi AI lokal
+.claude/
+CLAUDE.md
+.mcp.json
+
+# File audit dan sementara
+audit-file-list.txt
+temp-isi-kode-supplier.php
+test-csv.php
+manajer-ui.zip
+
+# Backup dan referensi UKK
+/database/migrations_backup/
+/referensi-ukk/
+
+# Konfigurasi dan dokumentasi belajar lokal
+/boost.json
+/DOKUMENTASI_BELAJAR_UKK.md
+
+# File backup tampilan
+*.blade.php.backup
